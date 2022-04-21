@@ -2,17 +2,15 @@ import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
-import { MdDesktopMac } from 'react-icons/md';
-
 import { Container, Span, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
 const Header = () =>  (
   <div>
-    <Container>
+    <Container >
     <Div1>
       <Link href ="/">
-        <a style={{ display: "flex", alignItems: "center", color: 'white' , marginBottom: '15px' }}>
-          <MdDesktopMac size="3rem" /> <Span>MZS</Span>
+        <a>
+          <DiCssdeck color="#4483ab" size="2.5rem"/><Span>MZS</Span>
         </a>
       </Link>
     </Div1>
@@ -23,18 +21,13 @@ const Header = () =>  (
         </Link>
       </li>
       <li>
-        <Link href="#tech">
-          <NavLink>Technologies</NavLink>
+        <Link href="#skills">
+          <NavLink>Skills</NavLink>
         </Link>
       </li>
       <li>
         <Link href="#about">
           <NavLink>About</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="#contact">
-          <NavLink>Contact Me</NavLink>
         </Link>
       </li>
     </Div2>
