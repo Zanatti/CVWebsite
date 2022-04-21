@@ -12,8 +12,8 @@ display: grid;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 padding: 3rem;
 place-items: center;
-column-gap: 2rem;
-row-gap: 3rem;
+column-gap: 5rem;
+row-gap: 5rem;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
   flex-direction: column;
@@ -30,9 +30,9 @@ export const BlogCard = styled.div`
   transition: box-shadow .3s;
   &:hover {
     background-color: #ffffff;
-    transform: scale(1.1);
+    transform: scale(1.05);
     cursor: pointer;
-    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    box-shadow: 0 0 11px rgba(68,131,171,.8); 
 
   }
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -103,7 +103,7 @@ background: #000e36;
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: #801414;
+  background: #4483ab;
 
 }
 `;
