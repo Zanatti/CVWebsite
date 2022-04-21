@@ -35,7 +35,7 @@ export const experience = [
 
 export const TimeLineData = [
   { year: 2019, text: 'Started studying Computer Science and Engineering at IST', },
-  { year: 2020, text: 'Realized college did not teach everything and started exploring online courses', },
-  { year: 2021, text: 'Started working in a restaurant part-time', },
+  { year: 2020, text: 'Realized college did not teach everything I wanted to learn so I started exploring online courses', },
+  { year: 2021, text: 'Started working in a restaurant part-time while studying', },
   { year: 2022, text: 'Started looking for possible jobs and decided to create this website', },
 ];
