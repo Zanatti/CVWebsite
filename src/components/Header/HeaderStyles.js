@@ -19,8 +19,8 @@ export const Container = styled.div`
 `;
 
 export const Span = styled.span`
-  font-size: 3rem;
-  color: rgba(0, 0, 0, 0.75)
+  font-size: 4rem;
+  color: rgba(255, 255, 255, 0.75)
 `;
 
 export const Div1 = styled.div`
@@ -55,10 +55,10 @@ export const Div3 = styled.div`
 export const NavLink = styled.a`
   font-size: 2rem;
   line-height: 32px;
-  color: rgba(0, 0, 0, 0.75);
+  color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
   &:hover {
-    color: #4483ab;
+    color: #000000;
     opacity: 1;
     cursor: pointer;
   }
@@ -118,11 +118,11 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 
 export const SocialIcons = styled.a`
 transition: 0.3s ease;
-color: black;
+color: white;
 border-radius: 50px;
   padding: 8px;
 &:hover {
-    background-color: #4483ab;
+    background-color: #000000;
     transform: scale(1.2);
     cursor: pointer;
     

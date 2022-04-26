@@ -23,10 +23,15 @@ export const Boxes = styled.div`
 `
 
 export const Box = styled.div`
-  background: #212D45;
+  background: #808080;
   border-radius: 12px;
   height: 144px;
   padding: 24px;
+  &:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0 0 11px rgba(255, 255, 255,.8); 
+
   @media ${props => props.theme.breakpoints.lg} {
     height: 210px;
 

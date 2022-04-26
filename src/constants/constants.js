@@ -1,7 +1,7 @@
 export const experience = [
   {
     title: 'Waiter at Hífen',
-    description: "Worked in a local Cascais restaurant catering and advising tourists on local tourist hot spots and unknown locations. Developed key relationships with regular clients as well as new clienteles. Generated tips within the 20 to 40 percent range.",
+    description: "Worked in a local Cascais restaurant catering and advising tourists on local tourist hot spots and unknown locations. Developed key relationships with regular clients as well as new clienteles.",
       image: '/images/1.jpg',
       tags: ['Logistics', 'Communication', 'Management', 'English'],
     visit: 'https://pt-pt.facebook.com/hifenrestaurantebar/',
@@ -34,8 +34,8 @@ export const experience = [
 ];
 
 export const TimeLineData = [
-  { year: 2019, text: 'Started studying Computer Science and Engineering at IST', },
-  { year: 2020, text: 'Realized college did not teach everything I wanted to learn so I started exploring online courses', },
-  { year: 2021, text: 'Started working in a restaurant part-time while studying', },
-  { year: 2022, text: 'Started looking for possible jobs and decided to create this website', },
+  { year: 2019, text: 'Started studying Computer Science and Engineering at Instituto Superior Técnico.', },
+  { year: 2020, text: 'Began learning programming skills that college did not teach by exploring online courses.', },
+  { year: 2021, text: 'Initiated a second big online course as well as started working in a restaurant part-time while still in college.', },
+  { year: 2022, text: 'Started searching for possible jobs to kick-start my career and decided to create this website.', },
 ];

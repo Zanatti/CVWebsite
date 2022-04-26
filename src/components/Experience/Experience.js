@@ -12,30 +12,23 @@ const Experience = () => {
     Aos.init({duration: 2000});
   }, []);
   return (
-    <Section nopadding id="experience">
+    <Section style={{ marginBottom:'10%' }} nopadding id="experience">
       <SectionDivider />
-      <SectionTitle main>Work Experience</SectionTitle>
+      <SectionTitle main>Experience</SectionTitle>
       <GridContainer>
         {experience.map(({ id, image, title, description, tags, source, visit }) => (
-          <BlogCard key={id}>
-            <Img src={image}/>
-            <TitleContent>
-              <HeaderThree title>{title}</HeaderThree>
-              <Hr />
-            </TitleContent>
-            <CardInfo>{description}</CardInfo>
-            <div>
-              <TagList>
-                { tags.map((tag, i) => (
-                  <Tag key={i}>{tag}</Tag>
-                ))}
-              </TagList>
-            </div>
-            <UtilityList>
-              <ExternalLinks href={visit}>About</ExternalLinks>
-            </UtilityList>
-          </BlogCard>
-      
+          <ExternalLinks href={visit}>
+            <BlogCard data-aos="zoom-in" key={id}>
+              <Img src={image}/>
+              <TitleContent>
+                <HeaderThree title>{title}</HeaderThree>
+                <Hr />
+              </TitleContent>
+              <CardInfo>{description}</CardInfo>
+              <UtilityList>
+              </UtilityList>
+            </BlogCard>
+          </ExternalLinks>
       ))}
       </GridContainer>
     </Section>
