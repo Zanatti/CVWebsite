@@ -48,12 +48,12 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section style={{ marginBottom:'10%' }} id="about">
+    <Section style={{ marginBottom:'40%' }} id="about">
       <SectionDivider style={{ marginBottom:'5%' }}/>
-      <SectionTitle>Intro</SectionTitle>
+      <SectionTitle data-aos="fade-right">Intro</SectionTitle>
       <SectionText data-aos="fade-right">
         Currently undertaking a BSc in Engineering and Computer Science. My main interests are Software Development specifically Mobile and Web Development. I'm eager to learn from
-        experienced professionals in any area that can improve my knowledge and make me a better developer overall. My interests outside my area are Mixed Martial Arts, Space Exploration, Music, Personal Finance and Cinema.
+        experienced professionals in any area that can improve my knowledge and make me a better developer overall. My interests outside my area are Mixed Martial Arts, Music, Personal Finance and Cinema.
       </SectionText>
       <BrowserView>
         <CarouselContainer data-aos='fade-right' ref={carouselRef} onScroll={handleScroll}>

@@ -13,9 +13,9 @@ const Skills = () =>  {
 
   return (
     
-    <Section style={{marginBottom:'10%'}} id="skills">
+    <Section style={{marginBottom:'40%'}} id="skills">
       <SectionDivider style={{ marginBottom:'5%' }}/>
-      <SectionTitle>Skills</SectionTitle>
+      <SectionTitle data-aos="fade-right">Skills</SectionTitle>
       <SectionText data-aos="fade-right">
         Through my college years I've worked with a range of technologies inside and outside of academical projects.
         In college i mostly worked in Back-End development so i took it to myself to explore Front-End technologies such as React, ReactNative and Android Studio.

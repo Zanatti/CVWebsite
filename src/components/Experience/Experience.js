@@ -14,7 +14,7 @@ const Experience = () => {
   return (
     <Section style={{ marginBottom:'10%' }} nopadding id="experience">
       <SectionDivider />
-      <SectionTitle main>Experience</SectionTitle>
+      <SectionTitle data-aos="fade-right" main>Experience</SectionTitle>
       <GridContainer>
         {experience.map(({ id, image, title, description, tags, source, visit }) => (
           <ExternalLinks href={visit}>

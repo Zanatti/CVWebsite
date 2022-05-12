@@ -97,16 +97,16 @@ export default function App({ Component, pageProps }) {
             }
           }}
         />
-          <Container style={{ position:'absolute', top:'40%', left:'17%'}}>
+          <Container style={{ position:'absolute', top:'40%', left:'12%'}}>
             <Typed
               style={{  
               color:'white', 
-              fontFamily:'Proxima Nova',
+              fontFamily:'Space Grotesk, sans serif',
               fontWeight:'800',
-              fontSize:'50px',
+              fontSize:'44px',
             }}
               className="typed-text"
-              strings={['"The way to get started is to quit talking and begin doing."<br/> - Walt Disney']}
+              strings={['"The way to get started is to quit talking and begin doing."<br/><br/>Walt Disney']}
               startDelay={500}
               typeSpeed={60}
               showCursor="false"
