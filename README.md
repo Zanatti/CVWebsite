@@ -1,3 +1,8 @@
 ## Personal Portfolio
 
-![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
+This is my personal CV/Portfolio Website.
+
+To run:
+npm start
+To build:
+npm build
