@@ -2,7 +2,7 @@
 
 This is my personal CV/Portfolio Website.
 
-To run:
-npm start
-To build:
-npm build
+-  To run dev:
+   npm run dev
+-  To build:
+   npm run build
