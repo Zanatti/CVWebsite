@@ -31,7 +31,7 @@ const Hero = (props) => (
 					<Typed
 						className="typed-text"
 						strings={[
-							"My name is Mateus Zanatti Saraiva and I'm a Portuguese Software Engineer eager to develop meaningful, innovative ideas from the ground up. Passionate about finding creative solutions to complex problems.",
+							"My name is Mateus Zanatti Saraiva and I'm a Portuguese Software Engineer eager to develop meaningful, innovative ideas from the ground up and passionate about finding creative solutions to complex problems.",
 						]}
 						startDelay={150}
 						typeSpeed={40}
