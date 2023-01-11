@@ -22,23 +22,24 @@ const Skills = () => {
 	}, []);
 
 	return (
-		<Section style={{ marginBottom: "40%" }} id="skills">
+		<Section style={{ marginBottom: "10%" }} id="skills">
 			<SectionDivider style={{ marginBottom: "5%" }} />
 			<SectionTitle data-aos="fade-right">Skills</SectionTitle>
 			<SectionText data-aos="fade-right">
-				Through my college years I've worked with a range of technologies
-				inside and outside of academical projects. In college I mostly
-				worked in Back-End development so I took it to myself to explore
-				Front-End technologies such as React, ReactNative and Android
-				Studio. Later on, when I started a Backend Engineering internship I
-				worked with more cutting-edge technologies such as Golang and AWS.
+				During my college years, I had the opportunity to work with a wide
+				range of technologies, both in and out of the classroom. In college,
+				I focused mainly on Backend development, so I decided to further my
+				knowledge by exploring Frontend technologies such as React,
+				ReactNative, and Android Studio. Later on, while I was doing a
+				Backend Engineering Internship, I had the chance to work with other
+				technologies like Golang, AWS, GraphQL, and many more.
 			</SectionText>
 			<List>
 				<ListItem data-aos="fade-right">
 					<DiReact size="3rem" color="white" />
 					<ListContainer>
 						<ListTitle>Front-End</ListTitle>
-						<ListParagraph>React and Vue</ListParagraph>
+						<ListParagraph>React, Vue and Typescript</ListParagraph>
 					</ListContainer>
 				</ListItem>
 				<ListItem data-aos="fade-down">
@@ -46,7 +47,8 @@ const Skills = () => {
 					<ListContainer>
 						<ListTitle>Back-End</ListTitle>
 						<ListParagraph>
-							Golang, PHP, Python, Java, C, MySQL, AWS and Docker
+							Golang, PHP, Python, Java, C, SQL, NoSQL, AWS, GraphQL, New
+							Relic and Docker
 						</ListParagraph>
 					</ListContainer>
 				</ListItem>
