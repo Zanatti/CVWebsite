@@ -98,14 +98,24 @@ const data = [
 class DownloadLink extends React.Component {
 	render() {
 		return (
-			<form action={this.props.download}>
+			<form action={this.props.download} data-aos="flip-right">
 				<button
 					type="submit"
-					style={{ padding: "0", border: "none", background: "none" }}
+					style={{
+						padding: "0",
+						border: "none",
+						background: "none",
+					}}
 				>
-					<Box data-aos="flip-right" key={this.props.index}>
-						<BoxNum>{this.props.number} hours</BoxNum>
-						<BoxText>{this.props.text}</BoxText>
+					<Box
+						data-aos="flip-right"
+						key={this.props.index}
+						style={{
+							padding: "5px",
+						}}
+					>
+						<BoxNum>{this.props.text}</BoxNum>
+						<BoxText>{this.props.number} hours</BoxText>
 					</Box>
 				</button>
 			</form>

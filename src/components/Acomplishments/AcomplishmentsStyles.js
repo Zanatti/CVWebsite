@@ -55,10 +55,11 @@ export const Box = styled.div`
 export const BoxNum = styled.h5`
 	font-style: normal;
 	font-weight: 600;
-	font-size: 36px;
+	font-size: 30px;
 	line-height: 40px;
 	letter-spacing: 0.01em;
 	color: #ffffff;
+	margin-top: 2px;
 	margin-bottom: 8px;
 
 	@media ${(props) => props.theme.breakpoints.md} {
@@ -72,7 +73,7 @@ export const BoxNum = styled.h5`
 `;
 
 export const BoxText = styled.p`
-	font-style: normal;
+	font-style: italic;
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 24px;
