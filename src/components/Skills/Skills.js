@@ -38,14 +38,14 @@ const Skills = () => {
 				<ListItem data-aos="fade-right">
 					<DiReact size="3rem" color="white" />
 					<ListContainer>
-						<ListTitle>Front-End</ListTitle>
+						<ListTitle>Frontend</ListTitle>
 						<ListParagraph>React, Vue and Typescript</ListParagraph>
 					</ListContainer>
 				</ListItem>
 				<ListItem data-aos="fade-down">
 					<DiPython size="3rem" color="white" />
 					<ListContainer>
-						<ListTitle>Back-End</ListTitle>
+						<ListTitle>Backend</ListTitle>
 						<ListParagraph>
 							Golang, PHP, Python, Java, C, SQL, NoSQL, AWS, GraphQL, New
 							Relic and Docker
