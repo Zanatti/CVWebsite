@@ -34,7 +34,7 @@ const Hero = (props) => (
               "My name is Mateus Zanatti Saraiva and I'm a Portuguese Software Engineer.<br/>I'm passionate about developing new, innovative ideas from the ground up and finding creative solutions to challenging problems.",
             ]}
             startDelay={150}
-            typeSpeed={50}
+            typeSpeed={35}
             showCursor='true'
             cursorChar='|'
           />
