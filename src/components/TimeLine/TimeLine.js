@@ -73,15 +73,20 @@ const Timeline = () => {
       <SectionDivider style={{ marginBottom: "5%" }} />
       <SectionTitle data-aos='fade-right'>About Me</SectionTitle>
       <SectionText data-aos='fade-right'>
-        I am currently studying for my Bachelor's degree in Engineering and
-        Computer Science, whilst also working as a Junior Backend Engineer. My
-        particular technical interests lie in Mobile Development, Web
-        Development, and Artificial Intelligence, and I am enthusiastic about
-        developing my expertise and skillset as an engineer. In the future, I am
-        planning to continuously push myself by ensuring I am placed in
-        unfamiliar environments and amongst more experienced professionals. Away
-        from work, I am passionate about Mixed Martial Arts, Space Exploration,
-        Music, Personal Finance, and Cinema.
+        Currently residing in Bern, Switzerland, I work as a Software Engineer
+        at Swisscom. Recently, I returned from a solo journey through Southeast
+        Asia, which offered a remarkable experience. In addition to my
+        professional endeavors, I possess a wide array of interests that fuel my
+        passion. Mixed Martial Arts captivates my attention, as I admire the
+        discipline and dedication exhibited by athletes as well as the
+        complexity of each martial art. Additionally, I harbor an unending
+        curiosity for the Space Exploration, constantly seeking to expand my
+        knowledge about the cosmos. Music holds a special place in my heart, and
+        I love the power it has to evoke emotions and connect people. Personal
+        Finance is another area of interest for me, as I strive to develop a
+        solid understanding of financial principles and make informed decisions
+        about money management. Finally, Cinema captivates my imagination, and I
+        find great joy in exploring various genres and cinematic masterpieces.
       </SectionText>
       <BrowserView>
         <CarouselContainer
